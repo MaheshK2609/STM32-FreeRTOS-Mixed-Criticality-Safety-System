@@ -69,3 +69,9 @@ Key Learning Outcomes
 - Mixed-Criticality Systems
 - Embedded Performance Optimization
 - Safety-Critical Firmware Design
+
+# Outputs
+<img width="673" height="355" alt="image" src="https://github.com/user-attachments/assets/c43e3e7d-04f3-4e82-8c4c-374107b3fe14" />
+
+<img width="670" height="445" alt="image" src="https://github.com/user-attachments/assets/87622181-255f-4f4c-8e1d-4271309b4b30" />
+
