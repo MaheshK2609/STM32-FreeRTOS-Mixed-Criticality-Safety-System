@@ -18,21 +18,23 @@ Obstacle detection and emergency braking
 Critical mode activation above 80% CPU utilization
 
 Hardware Used
-Component	Purpose
-STM32F4 Nucleo	Main Controller
-IR Sensor	Obstacle Detection
-DC Motor	Vehicle Motion
-Buzzer	Alert System
-User Button (PC13)	Stress Task Trigger
-UART2	Debug Output
+| Component | Purpose |
+|-----------|---------|
+| STM32F4 Nucleo | Main Controller |
+| IR Sensor | Obstacle Detection |
+| DC Motor | Vehicle Motion |
+| Buzzer | Alert System |
+| User Button (PC13) | Stress Task Trigger |
+| UART2 | Debug Output |
 
 Task Architecture
-Task	Priority	Period
-BreakTask	High	50 ms
-IRSensorTask	AboveNormal	50 ms
-MonitorTask	Normal2	1000 ms
-LoggingTask	Low7	1000 ms
-StressTask	AboveNormal	Runtime
+| Task       | Priority   |	Period  |
+|------------|------------|---------|
+|BreakTask | High	| 50 ms |
+|IRSensorTask |	AboveNormal |	50 ms |
+|MonitorTask |	Normal2 |	1000 ms |
+|LoggingTask |	Low7 |	1000 ms |
+|StressTask	| AboveNormal |	Runtime |
 
 These tasks were implemented using CMSIS-RTOS v2 APIs.
 
