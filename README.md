@@ -36,36 +36,34 @@ StressTask	      AboveNormal     	Runtime
 
 These tasks were implemented using CMSIS-RTOS v2 APIs.
 
-RTOS Concepts Demonstrated
-Preemptive Scheduling
-Rate Monotonic Scheduling (RMS)
-Event Flags
-Mutexes
-Dynamic Task Creation
-ISR-to-Task Communication
-CPU Load Monitoring
-Mixed-Criticality Scheduling
-Deterministic Timing
+• Preemptive Scheduling
+• Rate Monotonic Scheduling (RMS)
+• Event Flags
+• Mutexes
+• Dynamic Task Creation
+• ISR-to-Task Communication
+• CPU Load Monitoring
+• Mixed-Criticality Scheduling
+• Deterministic Timing
 
 These concepts are explicitly implemented and documented in the project.
 
 Critical Mode Operation
 
 When CPU load exceeds 80%:
-
-LoggingTask is suspended
-LED status indication replaces UART logging
-Safety-critical tasks continue executing
-Obstacle detection remains active
-Braking response remains within 50 ms
+• LoggingTask is suspended
+• LED status indication replaces UART logging
+• Safety-critical tasks continue executing
+• Obstacle detection remains active
+• Braking response remains within 50 ms
 
 This adaptive behavior ensures system reliability under overload conditions.
 
 Key Learning Outcomes
-FreeRTOS Task Scheduling
-Real-Time Embedded System Design
-Inter-Task Communication
-STM32 Peripheral Programming
-Mixed-Criticality Systems
-Embedded Performance Optimization
-Safety-Critical Firmware Design
+• FreeRTOS Task Scheduling
+• Real-Time Embedded System Design
+• Inter-Task Communication
+• STM32 Peripheral Programming
+• Mixed-Criticality Systems
+• Embedded Performance Optimization
+• Safety-Critical Firmware Design
